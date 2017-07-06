@@ -1,0 +1,1028 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2017-06-21T23:18:00.033Z",
+        "id": "page_15",
+        "title": "https://notaparana.pr.gov.br/nfprweb/",
+        "pageTimings": {
+          "onContentLoad": 264.7080000006099,
+          "onLoad": 264.40200000070035
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2017-06-21T23:18:00.112Z",
+        "time": 26.393000000098255,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "authz.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "response_type",
+              "value": "code"
+            },
+            {
+              "name": "client_id",
+              "value": "8cb1b61969446782289b3c2c3558f3b6"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "https://notaparana.pr.gov.br/nfprweb"
+            },
+            {
+              "name": "scope",
+              "value": "cliente_authz.basic"
+            },
+            {
+              "name": "state",
+              "value": "1498087080081"
+            },
+            {
+              "name": "urlCadCPF",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor"
+            },
+            {
+              "name": "urlCadCNPJ",
+              "value": "https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento"
+            },
+            {
+              "name": "urlWWW",
+              "value": "null"
+            },
+            {
+              "name": "urlCadastroCPF",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor"
+            },
+            {
+              "name": "urlCadastroCNPJ",
+              "value": "https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento"
+            },
+            {
+              "name": "forgotPass",
+              "value": "https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta"
+            },
+            {
+              "name": "serverAS",
+              "value": "https://authz.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "serverAD",
+              "value": "https://admin.identidadedigital.pr.gov.br"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1221,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:18:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 05 Jun 2017 11:32:58 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7188"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7188,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 218,
+          "bodySize": 7188,
+          "_transferSize": 7406
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.254999999924621,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08200000047509098,
+          "wait": 23.408000000017687,
+          "receive": 2.647999999680856,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "connection": "93238",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.033Z",
+        "time": 55.446000000301865,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; THE_STATE=1498087039102"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_STATE",
+              "value": "1498087039102",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 504,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:18:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain"
+            },
+            {
+              "name": "Location",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/api/v1/authorize?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&confiability_level=2&entity_type=3&attributes=0000000"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "JSESSIONID=wQdmZcc63UAA2IGqckReMYN4.ssefa00124; path=/nfprweb; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:00 GMT"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; path=/nfprweb"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_STATE=1498087080081; path=/nfprweb"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "wQdmZcc63UAA2IGqckReMYN4.ssefa00124",
+              "path": "/nfprweb",
+              "expires": "2017-06-21T23:18:00.033Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_STATE",
+              "value": "1498087080081",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/api/v1/authorize?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&confiability_level=2&entity_type=3&attributes=0000000",
+          "headersSize": 770,
+          "bodySize": 0,
+          "_transferSize": 770
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 40.7340000001568,
+          "send": 0.07900000036899968,
+          "wait": 12.847999999394204,
+          "receive": 1.7850000003818636,
+          "ssl": 31.44100000008622
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "93276",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.089Z",
+        "time": 22.214999999960128,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/api/v1/authorize?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&confiability_level=2&entity_type=3&attributes=0000000",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "authz.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "response_type",
+              "value": "code"
+            },
+            {
+              "name": "client_id",
+              "value": "8cb1b61969446782289b3c2c3558f3b6"
+            },
+            {
+              "name": "redirect_uri",
+              "value": "https://notaparana.pr.gov.br/nfprweb"
+            },
+            {
+              "name": "scope",
+              "value": "cliente_authz.basic"
+            },
+            {
+              "name": "state",
+              "value": "1498087080081"
+            },
+            {
+              "name": "confiability_level",
+              "value": "2"
+            },
+            {
+              "name": "entity_type",
+              "value": "3"
+            },
+            {
+              "name": "attributes",
+              "value": "0000000"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 710,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Location",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:18:00 UTC"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Identidade Digital"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 0
+          },
+          "redirectURL": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br",
+          "headersSize": 988,
+          "bodySize": 0,
+          "_transferSize": 988
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.230999999985215,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.07999999979802,
+          "wait": 20.051999999850565,
+          "receive": 1.8520000003263277,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "connection": "93238",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.145Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/css/bootstrap.min.css",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "117299"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 117299,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.146Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/css/font-awesome.min.css",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "23733"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 23733,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.146Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/css/style.css",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 12 Jul 2016 18:52:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "32243"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 32243,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.146Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/js/jquery-1.11.0.min.js",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "96381"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 96381,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.146Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/image/logo-nfpr.png",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 12 Jul 2016 18:52:00 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "56362"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 56362,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.147Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/image/logo_govparana_132x34.png",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5681"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5681,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.147Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/image/logo_celepar_96x34.png",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3133"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3133,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:18:00.248Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/font/fontawesome-webfont.woff2?v=4.3.0",
+          "httpVersion": "unknown",
+          "headers": [],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4.3.0"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:08:00 UTC"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 18 Mar 2016 16:11:24 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "56780"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 56780,
+            "mimeType": "application/octet-stream"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.176",
+        "pageref": "page_15"
+      }
+    ]
+  }
+}

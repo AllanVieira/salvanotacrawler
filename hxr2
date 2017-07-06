@@ -1,0 +1,3634 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2017-06-21T23:35:27.348Z",
+        "id": "page_16",
+        "title": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/api/v1/authorize",
+        "pageTimings": {
+          "onContentLoad": 1121.7029999988881,
+          "onLoad": 1129.8459999998158
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2017-06-21T23:35:27.565Z",
+        "time": 703.3339999998134,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4="
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1870,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "JSP/2.2"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Content-Language",
+              "value": "pt-BR"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html;charset=ISO-8859-1"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; path=/nfprweb"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=998"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 37825,
+            "mimeType": "text/html",
+            "compression": -57
+          },
+          "redirectURL": "",
+          "headersSize": 368,
+          "bodySize": 37882,
+          "_transferSize": 38250
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.606999999945401,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.10300000030838397,
+          "wait": 666.8550000013053,
+          "receive": 35.768999998254344,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103302",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:27.348Z",
+        "time": 93.11299999899347,
+        "request": {
+          "method": "POST",
+          "url": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/api/v1/authorize",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121"
+            },
+            {
+              "name": "Origin",
+              "value": "https://authz.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Host",
+              "value": "authz.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            },
+            {
+              "name": "Referer",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "756"
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "k6ZRQyQ2644nT7BUQVwhlQJ4.ssefa00121",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1446,
+          "bodySize": 756,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "step=2&response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb&scope=cliente_authz.basic&state=1498087080081&mensagem=&urlCadCPF=https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb%2Fpublico%2FCadastroConsumidor&urlCadCNPJ=https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FCadastroEstabelecimento&forgotPass=https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FRecuperacaoConta&urlWWW=null&urlCadastroCPF=https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb%2Fpublico%2FCadastroConsumidor&urlCadastroCNPJ=https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FCadastroEstabelecimento&tipo=&attribute=07365093994&password=h1deout865473753",
+            "params": [
+              {
+                "name": "step",
+                "value": "2"
+              },
+              {
+                "name": "response_type",
+                "value": "code"
+              },
+              {
+                "name": "client_id",
+                "value": "8cb1b61969446782289b3c2c3558f3b6"
+              },
+              {
+                "name": "redirect_uri",
+                "value": "https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb"
+              },
+              {
+                "name": "scope",
+                "value": "cliente_authz.basic"
+              },
+              {
+                "name": "state",
+                "value": "1498087080081"
+              },
+              {
+                "name": "mensagem",
+                "value": ""
+              },
+              {
+                "name": "urlCadCPF",
+                "value": "https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb%2Fpublico%2FCadastroConsumidor"
+              },
+              {
+                "name": "urlCadCNPJ",
+                "value": "https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FCadastroEstabelecimento"
+              },
+              {
+                "name": "forgotPass",
+                "value": "https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FRecuperacaoConta"
+              },
+              {
+                "name": "urlWWW",
+                "value": "null"
+              },
+              {
+                "name": "urlCadastroCPF",
+                "value": "https%3A%2F%2Fnotaparana.pr.gov.br%2Fnfprweb%2Fpublico%2FCadastroConsumidor"
+              },
+              {
+                "name": "urlCadastroCNPJ",
+                "value": "https%3A%2F%2Fadmin.identidadedigital.pr.gov.br%2Fcidadao_admin%2Fpublico%2FCadastroEstabelecimento"
+              },
+              {
+                "name": "tipo",
+                "value": ""
+              },
+              {
+                "name": "attribute",
+                "value": "07365093994"
+              },
+              {
+                "name": "password",
+                "value": "h1deout865473753"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Location",
+              "value": "https://notaparana.pr.gov.br/nfprweb?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:27 UTC"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "JSESSIONID=wCSffzUMt_QVHJ5Odsufw2WS.ssefa00120; path=/cidadao_authz"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Identidade Digital"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "wCSffzUMt_QVHJ5Odsufw2WS.ssefa00120",
+              "path": "/cidadao_authz",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 0
+          },
+          "redirectURL": "https://notaparana.pr.gov.br/nfprweb?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3",
+          "headersSize": 368,
+          "bodySize": 0,
+          "_transferSize": 368
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.392999998439336,
+          "dns": 15.436000001500364,
+          "connect": 24.5869999998831,
+          "send": 0.11499999891389479,
+          "wait": 50.8000000008905,
+          "receive": 1.7819999993662776,
+          "ssl": 11.806000000433404
+        },
+        "serverIPAddress": "200.189.123.176",
+        "connection": "103278",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:27.441Z",
+        "time": 68.62599999840313,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; THE_STATE=1498087080081"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "state",
+              "value": "1498087080081"
+            },
+            {
+              "name": "code",
+              "value": "2a2ca27827c38970fc9e8780dc2eb2e3"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_STATE",
+              "value": "1498087080081",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1393,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:27 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain"
+            },
+            {
+              "name": "Location",
+              "value": "https://notaparana.pr.gov.br/nfprweb/?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "https://notaparana.pr.gov.br/nfprweb/?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3",
+          "headersSize": 313,
+          "bodySize": 0,
+          "_transferSize": 313
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 14.1029999995226,
+          "connect": 41.8319999989762,
+          "send": 0.10400000064689863,
+          "wait": 10.969999999360894,
+          "receive": 1.6169999998965352,
+          "ssl": 28.935999998793704
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103302",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:27.511Z",
+        "time": 53.99799999941024,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/?state=1498087080081&code=2a2ca27827c38970fc9e8780dc2eb2e3",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Referer",
+              "value": "https://authz.identidadedigital.pr.gov.br/cidadao_authz/authentication.html?response_type=code&client_id=8cb1b61969446782289b3c2c3558f3b6&redirect_uri=https://notaparana.pr.gov.br/nfprweb&scope=cliente_authz.basic&state=1498087080081&urlCadCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&urlWWW=null&urlCadastroCPF=https://notaparana.pr.gov.br/nfprweb/publico/CadastroConsumidor&urlCadastroCNPJ=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/CadastroEstabelecimento&forgotPass=https://admin.identidadedigital.pr.gov.br/cidadao_admin/publico/RecuperacaoConta&serverAS=https://authz.identidadedigital.pr.gov.br&serverAD=https://admin.identidadedigital.pr.gov.br"
+            },
+            {
+              "name": "Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato; THE_STATE=1498087080081"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=0"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "state",
+              "value": "1498087080081"
+            },
+            {
+              "name": "code",
+              "value": "2a2ca27827c38970fc9e8780dc2eb2e3"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_STATE",
+              "value": "1498087080081",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1394,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:27 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/plain"
+            },
+            {
+              "name": "Location",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; path=/nfprweb"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_STATE=1498087080081; path=/nfprweb; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:00 GMT"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; path=/nfprweb"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=999"
+            },
+            {
+              "name": "Content-Length",
+              "value": "0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_STATE",
+              "value": "1498087080081",
+              "path": "/nfprweb",
+              "expires": "2017-06-21T23:35:27.511Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "compression": 0
+          },
+          "redirectURL": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+          "headersSize": 969,
+          "bodySize": 0,
+          "_transferSize": 969
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.339000000167289,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.113000000055763,
+          "wait": 51.75799999960875,
+          "receive": 1.7879999995784388,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103302",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.243Z",
+        "time": 50.808000001779874,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/css/bootstrap.min.css",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 02 Jul 2015 11:56:06 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "117305"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 117305,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.171000001500943,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 15.172999999776957,
+          "receive": 35.464000000501976,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.244Z",
+        "time": 38.74799999903189,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/css/font-awesome.min.css",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 29 Jun 2015 12:49:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "23739"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 23739,
+            "mimeType": "text/css"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.141000000439817,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 15.981999998984982,
+          "receive": 22.62499999960709,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.244Z",
+        "time": 47.076999999262625,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1030,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 30 May 2017 17:36:40 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "42831"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 42831,
+            "mimeType": "text/css",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 251,
+          "bodySize": 42831,
+          "_transferSize": 43082
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 8.03599999926519,
+          "dns": -1,
+          "connect": -1,
+          "send": 2.8200000015204107,
+          "wait": 12.529999999969698,
+          "receive": 23.690999998507326,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103304",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.244Z",
+        "time": 50.17699999916658,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/jquery/jquery-2.1.4.min.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 29 May 2015 20:23:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "84345"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 84345,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.164999999469728,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 36.91000000071657,
+          "receive": 13.101999998980283,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.245Z",
+        "time": 47.510000000329455,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/jquery/jquery.maskedinput.js",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 02 Jun 2015 18:36:14 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7207"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7207,
+            "mimeType": "application/javascript"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.153000000864267,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 37.88899999926803,
+          "receive": 9.468000000197158,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.245Z",
+        "time": 33.74400000029709,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/consumidor/cadastroConsumidor/cadastroConsumidor.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1056,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 21 Aug 2015 17:50:40 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "580"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 580,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 263,
+          "bodySize": 580,
+          "_transferSize": 843
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.90799999999581,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.07000000005063889,
+          "wait": 19.82899999893565,
+          "receive": 3.937000001314992,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103300",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.245Z",
+        "time": 31.10000000015134,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/util/util.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1017,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 22 Jul 2016 13:31:40 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3688"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3688,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 3688,
+          "_transferSize": 3952
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 9.36999999976251,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.04900000021735096,
+          "wait": 17.26000000053314,
+          "receive": 4.42099999963834,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103301",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.246Z",
+        "time": 43.945999999777996,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/util/mensagem.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1021,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 12 Feb 2016 19:07:52 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "6274"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 6274,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 6274,
+          "_transferSize": 6538
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 8.85399999970105,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.04300000000511872,
+          "wait": 22.66600000075413,
+          "receive": 12.382999999317697,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103299",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.246Z",
+        "time": 43.40600000068662,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/paginacao/paginate.plugin.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1033,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 10 Dec 2015 12:13:52 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=1000"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5619"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5619,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 5619,
+          "_transferSize": 5883
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 8.49100000050385,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.04300000000511872,
+          "wait": 21.45999999993363,
+          "receive": 13.412000000244017,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103303",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.247Z",
+        "time": 54.08800000077463,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/notas/notas.plugin.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1026,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 10 Nov 2016 18:51:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=997"
+            },
+            {
+              "name": "Content-Length",
+              "value": "16715"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 16715,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 16715,
+          "_transferSize": 16979
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 33.701000000292,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.1140000003942987,
+          "wait": 13.173999999708002,
+          "receive": 7.099000000380329,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103302",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.247Z",
+        "time": 110.16799999924842,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/util/layout.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1019,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 15 Apr 2016 19:47:20 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=999"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3601"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3601,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 263,
+          "bodySize": 3601,
+          "_transferSize": 3864
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 36.8259999995644,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.5290000008243965,
+          "wait": 66.6819999987642,
+          "receive": 6.131000000095426,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103301",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.247Z",
+        "time": 114.11899999984598,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/util/popupConfirmModal.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1030,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 29 Sep 2015 16:51:50 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=999"
+            },
+            {
+              "name": "Content-Length",
+              "value": "755"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 755,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 262,
+          "bodySize": 755,
+          "_transferSize": 1017
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 36.9529999989027,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.0960000015766056,
+          "wait": 71.4849999985747,
+          "receive": 5.585000000791979,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103300",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.247Z",
+        "time": 115.90799999976298,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/modal/modalSorteio.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1026,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 02 Oct 2015 19:55:34 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=999"
+            },
+            {
+              "name": "Content-Length",
+              "value": "763"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 763,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 262,
+          "bodySize": 763,
+          "_transferSize": 1025
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 42.0489999996789,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.12299999980319853,
+          "wait": 68.2959999994639,
+          "receive": 5.44000000081698,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103303",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.248Z",
+        "time": 110.68299999897135,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/js/util/login.js?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1018,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 28 Jul 2015 19:47:40 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=999"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1255"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1255,
+            "mimeType": "application/javascript",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 263,
+          "bodySize": 1255,
+          "_transferSize": 1518
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 41.2239999986923,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.08900000102590155,
+          "wait": 63.855000000330804,
+          "receive": 5.514999998922349,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103299",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.361Z",
+        "time": 10.197000001426204,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/logo-nfpr.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 27 Jul 2015 19:57:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "56362"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 56362,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.332999999955064,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.3870000000461,
+          "receive": 9.47700000142504,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.371Z",
+        "time": 3.930999999283813,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/logo_celepar_51x47_branco.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 17 Feb 2016 17:43:20 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2217"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 2217,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.482999999803724,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.753999998778456,
+          "receive": 2.694000000701633,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.374Z",
+        "time": 4.626999998436077,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/trevo.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 29 Jun 2015 13:01:20 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7561"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 7561,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.320999999530613,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.513999999384396,
+          "receive": 3.7919999995210674,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.430Z",
+        "time": 0,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/fonts/fontawesome-webfont.woff2?v=4.3.0",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Origin",
+              "value": "https://notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/font-awesome.min.css"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=OYuyJuo5x_kznQ55_ebNv76d.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCOM4Gn8UVxdqRTr8ZuRN7BEOLaO//WQmTo+QoZ4vOiwrtNnQJzju7N+MSbdnYH6Oa3SqSZYeumau9KgKoOzEKpPvkW36Kzce2MRPQoauyV7Mg4PdkwNZC8LTVsqwRPrUZg8BI4wiBo6042xxqM3TS+Ff9os7SW+X/n5GYI+wie9l6z5uBeU1bhvj1hQpGiigGLBRUJWfyM102Jd+X7ng+RWHtVtbjfuA5FOclKxOVXbJsZSBLATtEdTUh0M92GKz4sHHBq4uu6pHIqOnq+diuy3jo57p70Tk4p6pVQDUpxHag6YPZW38gaAGqC4t674e6hkN5xEAXqcalKOHseSmdjFy65zL2CV7q1UCcVIt4fNZJfn1TrsTeYOut1X7tYv3Skjr9Pjz/FjUvNaWJUETR2igixQBHSldpcG1PdG9pt5Wo1TSoR74speOYiJ1Zcocr6YxIBFIXIEQVAWr6jvh6a6k=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4.3.0"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "OYuyJuo5x_kznQ55_ebNv76d.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCOM4Gn8UVxdqRTr8ZuRN7BEOLaO//WQmTo+QoZ4vOiwrtNnQJzju7N+MSbdnYH6Oa3SqSZYeumau9KgKoOzEKpPvkW36Kzce2MRPQoauyV7Mg4PdkwNZC8LTVsqwRPrUZg8BI4wiBo6042xxqM3TS+Ff9os7SW+X/n5GYI+wie9l6z5uBeU1bhvj1hQpGiigGLBRUJWfyM102Jd+X7ng+RWHtVtbjfuA5FOclKxOVXbJsZSBLATtEdTUh0M92GKz4sHHBq4uu6pHIqOnq+diuy3jo57p70Tk4p6pVQDUpxHag6YPZW38gaAGqC4t674e6hkN5xEAXqcalKOHseSmdjFy65zL2CV7q1UCcVIt4fNZJfn1TrsTeYOut1X7tYv3Skjr9Pjz/FjUvNaWJUETR2igixQBHSldpcG1PdG9pt5Wo1TSoR74speOYiJ1Zcocr6YxIBFIXIEQVAWr6jvh6a6k=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1095,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 29 Jun 2015 12:49:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=998"
+            },
+            {
+              "name": "Content-Length",
+              "value": "56780"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 56780,
+            "mimeType": "application/octet-stream"
+          },
+          "redirectURL": "",
+          "headersSize": 266,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0,
+          "receive": 0,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "82991",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.433Z",
+        "time": 4.772999998749583,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/spinner.gif",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 03 Aug 2016 16:32:32 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "18689"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 18689,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.160999999934575,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.5119999987073239,
+          "receive": 4.100000000107684,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.434Z",
+        "time": 8.234999999331194,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-header-title.jpg",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 29 May 2015 19:13:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "340"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 340,
+            "mimeType": "image/jpeg"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.130000000353903,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.623000000312457,
+          "receive": 5.4819999986648345,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.435Z",
+        "time": 7.679000000280212,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-header-title-left.jpg",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 27 Jul 2015 19:57:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "16222"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 16222,
+            "mimeType": "image/jpeg"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.137000000904663,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.140999999028277,
+          "receive": 5.401000000347272,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.435Z",
+        "time": 12.694000000919914,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/fonts/myriad-web-pro.ttf",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "Origin",
+              "value": "https://notaparana.pr.gov.br"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 29 Jun 2015 12:49:18 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "97496"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 97496,
+            "mimeType": "application/octet-stream"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.127000001157285,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.7620000000752047,
+          "receive": 9.804999999687425,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.435Z",
+        "time": 7.330000000365544,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-header-title-right.jpg",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 29 May 2015 19:13:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5099"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/jpeg"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5099,
+            "mimeType": "image/jpeg"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.124000000141677,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 3.381999998964603,
+          "receive": 3.824000001259264,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.436Z",
+        "time": 7.578000000648899,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-tab-active.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:08 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 29 May 2015 19:13:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "248"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 248,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.12100000094506,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 3.86900000012247,
+          "receive": 3.587999999581369,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.441Z",
+        "time": 6.366999999954714,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-tab.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:09 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 29 May 2015 19:13:16 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "247"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 247,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.293999999485095,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 2.0130000011704348,
+          "receive": 4.059999999299185,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.443Z",
+        "time": 5.414999999629799,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/bg-modal.png",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/publico/css/style.css?IsVJl2By"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "unknown",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:09:09 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 26 Jun 2015 20:00:30 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Length",
+              "value": "181"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/png"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 181,
+            "mimeType": "image/png"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.287000000753324,
+          "dns": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 1.909999999043066,
+          "receive": 3.2179999998334092,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.453Z",
+        "time": 54.33400000038091,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/NotasFiscaisAjax?periodo=01%2F06%2F2017&situacao=1&_=1498088128373",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "periodo",
+              "value": "01%2F06%2F2017"
+            },
+            {
+              "name": "situacao",
+              "value": "1"
+            },
+            {
+              "name": "_",
+              "value": "1498088128373"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1085,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json;charset=ISO-8859-1"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/NotasFiscaisAjax; path=/nfprweb"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=998"
+            },
+            {
+              "name": "Content-Length",
+              "value": "472"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/NotasFiscaisAjax",
+              "path": "/nfprweb",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "content": {
+            "size": 472,
+            "mimeType": "application/json",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 329,
+          "bodySize": 472,
+          "_transferSize": 801
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.546000001122593,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.12000000060652405,
+          "wait": 51.83499999839118,
+          "receive": 1.8330000002606113,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103303",
+        "pageref": "page_16"
+      },
+      {
+        "startedDateTime": "2017-06-21T23:35:28.500Z",
+        "time": 14.825999998720363,
+        "request": {
+          "method": "GET",
+          "url": "https://notaparana.pr.gov.br/nfprweb/publico/image/favicon.ico?IsVJl2By",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, sdch, br"
+            },
+            {
+              "name": "Host",
+              "value": "notaparana.pr.gov.br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Referer",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Cookie",
+              "value": "JSESSIONID=pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124; THE_TOKEN=sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=; THE_REQUESTED_URI=https://notaparana.pr.gov.br/nfprweb/Extrato"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "IsVJl2By",
+              "value": ""
+            }
+          ],
+          "cookies": [
+            {
+              "name": "JSESSIONID",
+              "value": "pUxERC-tIsVJl2ByNOV7c-6z.ssefa00124",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_TOKEN",
+              "value": "sCi6H+q8z8QjPyJ4pKpCODBQzfVKU4uy8I8rA32Bhi3IOvg3VfXupUb9uLXKW75gSpn/4BmvYr85+i5byqTYc1GueLGSJDHofF1vhYwd5F9/Pp0l3pNLp7gRl5tZgMAxoNLCdNTe7OcVC/QEYyuXDBvRewa+K9algflMfEMm4AehKxRxW2gkrlPHj5dG0eX1itZ5WQusBLphnTg4TCmvQx3BTDcSv94314hUl0RWE3vSMH0cQ3E/+kIL13t4xAtFm1EJs1jjPfE0Ziw1GVp6dcrku8xsJ2tIu3iPv8xplg2f3sPwIUxl24/5MtKffPgiwpTP1ErYP7vbRtr1YCHuqOIAT1yFC+ey7rTgsYe/sILfccc1dw7KuR4UOnxipW4g8hu4jg/8RtltRII8twFORMlRuTA8F9bp9cmOt1qfAHEV07E5u6env7V8ff0mlVqenbKsLBEkleica2nhFmiRC4AhvFXTM1my7r1eYb4Ifg4=",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "THE_REQUESTED_URI",
+              "value": "https://notaparana.pr.gov.br/nfprweb/Extrato",
+              "expires": null,
+              "httpOnly": false,
+              "secure": false
+            }
+          ],
+          "headersSize": 1019,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Wed, 21 Jun 2017 23:35:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 17 Feb 2016 17:43:20 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "Wildfly 8"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Undertow 1"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/octet-stream"
+            },
+            {
+              "name": "Connection",
+              "value": "Keep-Alive"
+            },
+            {
+              "name": "Keep-Alive",
+              "value": "timeout=2, max=998"
+            },
+            {
+              "name": "Content-Length",
+              "value": "5478"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 5478,
+            "mimeType": "application/octet-stream",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 265,
+          "bodySize": 5478,
+          "_transferSize": 5743
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.453999999081134,
+          "dns": -1,
+          "connect": -1,
+          "send": 0.12600000081874907,
+          "wait": 12.538999999378618,
+          "receive": 1.7069999994418623,
+          "ssl": -1
+        },
+        "serverIPAddress": "200.189.123.179",
+        "connection": "103300",
+        "pageref": "page_16"
+      }
+    ]
+  }
+}
