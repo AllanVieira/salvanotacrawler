@@ -13,13 +13,22 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <input type="text" name="usuario" id="usuario" required>
-  <input type="password" name="senha" id="senha" required>
-  <button type="submit" id="entrar">ENTRAR</button>
+  <h1>Faça login no Nota Paraná</h1>
+  <h1><small>Atenção, você precisa fazer login para processar as notas!</small></h1>
+  <div class="col-md-6 col-md-offset-3">
+    <div class="form-group">
+      <label for="exampleInputEmail1">CPF</label>
+      <input type="text" class="form-control" name="usuario" id="usuario" required>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Senha</label>
+      <input type="password" class="form-control" name="senha" id="senha" required>
+    </div>
+    <button type="submit" class="btn btn-block btn-success" id="entrar">ENTRAR</button>
+  </div>
   <div id="lista">
     <body ng-controller="DemoCtrl" class="container"  ng-app="DemoApp">
-      
+
       <!--VIDEO ADD NOTA-->
       <div class="col-md-12">
         <h1 class="text-center">Aproxime a Nota no Local Indicado</h1>
@@ -27,14 +36,14 @@
       <div class="text-center">
        <video id="preview"></video>
      </div>
-      <div id="chave"></div>
-      <div id="id"></div>
-      <div id="valor"></div>
+     <div id="chave"></div>
+     <div id="id"></div>
+     <div id="valor"></div>
      <!--ADD ITEM FORM-->
      <form name="myForm">
        <div>
          <input type="text" name="todoNameField" ng-model="chaveNota" placeholder="Chave de Acesso" required ng-minlength="44" class="form-control" ng-keyup="($event.keyCode == 13 && chaveNota.length > 2) ? addNota() : return" style="margin-bottom: 10px"/>
-         <button ng-click="addNota()" ng-hide="myForm.todoNameField.$invalid" class="btn btn-primary" type="button">Save Todo</button>
+         <button class="btn btn-block btn-info" ng-click="addNota()" ng-hide="myForm.todoNameField.$invalid" class="btn btn-primary" type="button">Processar nota</button>
        </div>
      </form>
      <hr>
