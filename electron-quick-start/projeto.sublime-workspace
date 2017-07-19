@@ -1,0 +1,677 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"im",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"s",
+				"small\t<small>"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-left \tBootstrap 3 Class"
+			],
+			[
+				"styl",
+				"style\tAttr"
+			],
+			[
+				"img",
+				"img-circle \tBootstrap 3 Class"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"img-",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"btn-",
+				"btn-primary \tBootstrap 3 Class"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"u",
+				"ul\t<ul>"
+			],
+			[
+				"input",
+				"inputt\tinput - tel"
+			],
+			[
+				"in",
+				"inputt\tinput - text"
+			],
+			[
+				"bu",
+				"bs3-button:danger\tbs3-button-danger"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"z",
+				"zChat"
+			],
+			[
+				"st",
+				"style\t<style>"
+			],
+			[
+				"fo",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"form-",
+				"form-group \tBootstrap 4 Class"
+			],
+			[
+				"cent",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"va",
+				"val\t.val()"
+			],
+			[
+				"rig",
+				"navbar-right \tBootstrap 3 Class"
+			],
+			[
+				"col-",
+				"col-md-6 \tBootstrap 3 Class"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"hea",
+				"header\t<header>"
+			],
+			[
+				"met",
+				"method\tAttr"
+			],
+			[
+				"na",
+				"name\tAttr"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"tel",
+				"telefone"
+			],
+			[
+				"btn",
+				"btn-block \tBootstrap 3 Class"
+			],
+			[
+				"tele",
+				"telefoneResponsavel"
+			],
+			[
+				"btn-s",
+				"btn-success \tBootstrap 3 Class"
+			],
+			[
+				"h",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"lab",
+				"label\t<label>"
+			],
+			[
+				"parse",
+				"parse\t$.parseJSON()"
+			],
+			[
+				"ge",
+				"getCookie"
+			],
+			[
+				"get",
+				"get\tGet Elements"
+			],
+			[
+				"cookie",
+				"cookieJson"
+			],
+			[
+				"coo",
+				"cookieJson"
+			],
+			[
+				"codi",
+				"codigoSMS"
+			],
+			[
+				"envia",
+				"enviaForm"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"col-md-4",
+				"col-md-4 \tBootstrap 3 Class"
+			],
+			[
+				"form",
+				"form-horizontal \tBootstrap 3 Class"
+			],
+			[
+				"ar",
+				"arquivo"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"strong",
+				"strong"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"getElement",
+				"getElementById"
+			],
+			[
+				"getElementB",
+				"getElementsByTagName"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"codigo",
+				"codigo"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inde",
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INDE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"pak",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/nota/salvanotacrawler/electron-quick-start"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/smtp-validator-email/index.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/vMail.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/vMail2.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/verifica.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/SMTPValidate.php",
+		"/opt/lampp/htdocs/smtp-validator-email/composer.json",
+		"/opt/lampp/htdocs/pizzaja/landing-page/pizzaria/index.html",
+		"/opt/lampp/htdocs/pizzaja/landing-page/pizzaria/enviar.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/verifemail.py",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/checkemailexample.php",
+		"/opt/lampp/htdocs/SMTP-Based-Email-Validation/vMail.py",
+		"/tmp/fz3temp-1/.htaccess",
+		"/tmp/fz3temp-1/.htaccess 2",
+		"/tmp/fz3temp-1/php.ini",
+		"/opt/lampp/htdocs/nota/crawler/log.php",
+		"/opt/lampp/htdocs/poster/email.html",
+		"/opt/lampp/htdocs/sudovalley/index2.html",
+		"/opt/lampp/htdocs/mater-dei/index.html",
+		"/opt/lampp/htdocs/sudovalley/index.html",
+		"/opt/lampp/htdocs/sudovalley/css/style.css",
+		"/opt/lampp/htdocs/sudovalley/css/jquery.cslider.css",
+		"/opt/lampp/htdocs/retibra/HTML/index.html",
+		"/opt/lampp/htdocs/retibra/HTML/produtos.html",
+		"/opt/lampp/htdocs/retibra/HTML/assets/css/style.css",
+		"/opt/lampp/htdocs/pizzaja/landing-page/desafio-front-end/style.css",
+		"/opt/lampp/htdocs/pizzaja/landing-page/desafio-front-end/index.html",
+		"/opt/lampp/htdocs/symfony_teste/index.php",
+		"/opt/lampp/htdocs/pizzaja/map-compleat.js",
+		"/opt/lampp/htdocs/pizzaja/landing-page/index-end.html",
+		"/opt/lampp/htdocs/pizzaja/landing-page/index.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/base.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/base_refresh.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/partials/partial-header.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/partials/partial-drawer.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-order-list.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-accounts-list.html",
+		"/home/emannuell/node_modules/alerta.js",
+		"/opt/lampp/htdocs/timewarner.com.br/index.html",
+		"/home/emannuell/node_modules/hello-react/src/App.js",
+		"/opt/lampp/htdocs/index.php",
+		"/opt/lampp/htdocs/pizzaja/landing-page/src/js/main.js",
+		"/opt/lampp/htdocs/pizzaja/landing-page/src/js/main.min.js",
+		"/opt/lampp/htdocs/pizzaja/landing-page/index-min.html",
+		"/opt/lampp/htdocs/retibra/HTML/assets/js/main.js",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/assets/scripts/notification.js",
+		"/home/emannuell/Downloads/wammu/Bulk-Sms-Gammu/bulk-sms.sh",
+		"/home/emannuell/Área de trabalho/redirect.js",
+		"/home/emannuell/Área de trabalho/index.html",
+		"/opt/lampp/htdocs/pizzaja/fbscraper/facebook-business-scraper/config.php",
+		"/opt/lampp/htdocs/pizzaja/fbscraper/facebook-business-scraper/index.php",
+		"/opt/lampp/htdocs/pizzaja/fbscraper/facebook-business-scraper/ng-csv.min.js",
+		"/opt/lampp/htdocs/pizzaja/fbscraper/facebook-business-scraper/api.php",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/geoapi/location.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/geoapi/gisgraphy.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/geoapi/__init__.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/core/services.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/core/views.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/settings.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/wsgi.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/app/geoapi/nearbyclient.py",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-form.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/password_change.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/signup.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/password_reset_from_key.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/account_inactive.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/email.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/password_set.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-pizza-dough-list.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-pizzeria-form.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/account/messages/email_confirmation_sent.txt",
+		"/opt/lampp/htdocs/pizzaja/landing-page/pizzaria/aguarde.html",
+		"/opt/lampp/htdocs/pizzaja/server-pizza-ja/src/templates/views/view-offer-form.html",
+		"/home/emannuell/Área de trabalho/untitled.html",
+		"/opt/lampp/htdocs/pizzaja/landing-page/pizzaria/funcao.js",
+		"/opt/lampp/htdocs/futurosolucoes/enviar.php",
+		"/opt/lampp/htdocs/futurosolucoes/index.php",
+		"/opt/lampp/htdocs/pizzaja/landing-page/src/css/style.css",
+		"/opt/lampp/htdocs/pizzaja/landing-page/gulpfile.js",
+		"/opt/lampp/htdocs/futurosolucoes/itens.json",
+		"/opt/lampp/htdocs/futurosolucoes/menu.json",
+		"/opt/lampp/htdocs/futurosolucoes/sms.js",
+		"/opt/lampp/htdocs/futurosolucoes/original/index.php",
+		"/opt/lampp/htdocs/futurosolucoes/index.html",
+		"/home/emannuell/Downloads/Ad Mag Free Version/Ad Mag-mod.xml"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"debug",
+			"preg",
+			"server log",
+			"log",
+			"eregi",
+			"CONTATO",
+			"service",
+			"startups",
+			"about",
+			"sect",
+			"message",
+			"icon",
+			"hecto",
+			"nosso",
+			"bootstra",
+			"font",
+			"green",
+			"7bc043",
+			"#7BC047",
+			"title",
+			"h3",
+			"thu",
+			"span6",
+			"h1",
+			"181A1C",
+			"00b159",
+			"slide",
+			"jpg",
+			"img",
+			"#18841A",
+			"18841b",
+			"seconda",
+			"map",
+			"pizzaja",
+			"clients",
+			"Nosso",
+			"nosso",
+			"logo",
+			"email",
+			"contact",
+			"our",
+			"da-",
+			";\n",
+			"mask",
+			"slider",
+			"logo",
+			"FECE1A",
+			"#FECE1A",
+			"mapSe",
+			"contact",
+			"ct-conta",
+			"ct-mapSe",
+			"min-he",
+			"ct-map",
+			"maps",
+			"google",
+			"contact",
+			".navbar",
+			"main",
+			"top",
+			"ROD",
+			"produtos",
+			"main.js",
+			"main",
+			"main.m",
+			"main.js",
+			"src/js",
+			"/src/",
+			"img",
+			"maps",
+			"alt",
+			"blank",
+			"a hre",
+			"max-w",
+			"max-h",
+			"social",
+			"veja no",
+			"depoimento",
+			"offset.le",
+			"veja",
+			"direção",
+			"maps",
+			"request",
+			"maps",
+			"key",
+			"coupons",
+			"prevent",
+			"we'll",
+			"logo",
+			"servi",
+			"minutos",
+			"time",
+			"http",
+			"bri",
+			"http",
+			"cep",
+			"email",
+			"promo",
+			"center",
+			"cadast",
+			"funcao",
+			"nome",
+			"table-row",
+			"num",
+			"enviar.",
+			"Loja",
+			"celular",
+			"ibge",
+			"console.",
+			"nome",
+			"produto",
+			"soratempl",
+			"crosscol",
+			"PageList",
+			"widget-content",
+			"Home",
+			"Most Popu",
+			"title='Most",
+			"ads",
+			"Most Popular",
+			"Most Popu",
+			"Featured"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"11a090",
+			"#11a090",
+			"FFFFFF",
+			"7bc043",
+			"00b159"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

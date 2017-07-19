@@ -1,60 +1,81 @@
-const electron = require('electron')
-// Module to control application life.
-const app = electron.app
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow
+var notasRef = new Firebase('https://nota-7fb52.firebaseio.com/notas/');
 
-const path = require('path')
-const url = require('url')
+var chave = document.getElementById('chaveNota');
+var WebCamera = require("webcamjs");
+// Save data to firebase
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
+var myApp = angular.module('DemoApp', ['firebase']);
 
-function createWindow () {
-  // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+myApp.constant("FIREBASE_URL", "https://nota-7fb52.firebaseio.com/entidades/68644723000167/notas/" )
 
-  // and load the index.html of the app.
-  mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
-    protocol: 'file:',
-    slashes: true
-  }))
+function DemoCtrl($scope, $firebase, FIREBASE_URL) {
+    // Get Stored TODOs
+    var notasList = new Firebase(FIREBASE_URL);
+    $scope.todos = $firebase(notasList);
 
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+    // Update the "completed" status
+    $scope.changeStatus   = function (item) {
+        // Get the Firebase reference of the item
+        var itemRef = new  Firebase(FIREBASE_URL + item.chaveNota);
+        $firebase(itemRef).$set({
+        	chaveNota: item.chaveNota,
+        	valor : item.valor,
+        	status: !item.status
+        });
+    }
 
-  // Emitted when the window is closed.
-  mainWindow.on('closed', function () {
-    // Dereference the window object, usually you would store windows
-    // in an array if your app supports multi windows, this is the time
-    // when you should delete the corresponding element.
-    mainWindow = null
-  })
+    // Remove a Todo
+    $scope.removeNota   = function (index, item, event) {
+       // Avoid wrong removing
+       if (item.chaveNota == undefined)return;
+       // Firebase: Remove item from the list
+       $scope.todos.$remove(item.chaveNota);
+   }
+
+   $scope.addNota  = function () {
+        // Get the Firebase reference of the item
+        var chaveNota = new Firebase(FIREBASE_URL + $scope.chaveNota)
+
+   		var timestamp = new Date().valueOf()
+        // Get the Firebase reference of the item
+        $firebase(chaveNota).$set({
+            chaveNota: $scope.chaveNota,
+            valor : "1555",
+            status: false
+        });
+        $scope.chaveNota = "";
+
+    }
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
-app.on('ready', createWindow)
+/*
+// CAMERA
+function carregar(result) {
+	var url = result
+	chave = url.split('?')[1].split('=')[1].split('&')[0]
+	valor = url.split('?')[1].split('NF=')[1].split('&')[0]
+	icms = url.split('?')[1].split('ICMS=')[1].split('&')[0]
+	$("#chave").text(chave)
+	$("#valor").text(valor)
+	$("#icms").text(icms)
+	console.log()
+}
 
-// Quit when all windows are closed.
-app.on('window-all-closed', function () {
-  // On OS X it is common for applications and their menu bar
-  // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
-})
-
-app.on('activate', function () {
-  // On OS X it's common to re-create a window in the app when the
-  // dock icon is clicked and there are no other windows open.
-  if (mainWindow === null) {
-    createWindow()
-  }
-})
-
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and require them here.
+var scanner = new Instascan.Scanner({ video: document.getElementById('preview'),
+	mirror:false });
+scanner.addListener(WebCamera, function (content) {
+	carregar(content);
+});
+Instascan.Camera.getCameras().then(function (cameras) {
+	if (cameras.length > 1) {
+		scanner.start(cameras[1]);
+	} else if (cameras.length > 0) {
+		scanner.start(cameras[0]);
+	}else {
+		alert("Camera não econtrada, experimente em outro aparelho!");
+		console.error('No cameras found.');
+	}
+}).catch(function (e) {
+	console.error(e);
+});
+*/

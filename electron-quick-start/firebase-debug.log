@@ -1,0 +1,25 @@
+[debug] [2017-07-17T22:21:17.696Z] ----------------------------------------------------------------------
+[debug] [2017-07-17T22:21:17.699Z] Command:      /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2017-07-17T22:21:17.699Z] CLI Version:  3.9.1
+[debug] [2017-07-17T22:21:17.699Z] Platform:     linux
+[debug] [2017-07-17T22:21:17.699Z] Node Version: v7.10.0
+[debug] [2017-07-17T22:21:17.699Z] Time:         Mon Jul 17 2017 19:21:17 GMT-0300 (BRT)
+[debug] [2017-07-17T22:21:17.699Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-17T22:21:17.711Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-07-17T22:21:17.712Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /opt/lampp/htdocs/nota/salvanotacrawler/electron-quick-start
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
